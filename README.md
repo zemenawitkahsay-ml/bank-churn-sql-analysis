@@ -60,10 +60,17 @@ The dataset contains **10,000 customers and 50,000 transactions**, with an overa
 ```
 bank-churn-sql-analysis
 │
-├── bank_churn_analysis.sql
+├── data
+│   ├── customers_insert.sql
+│   ├── transactions_insert.sql
+│   └── churn_insert.sql
+│
+├── queries
+│   └── bank_churn_analysis_queries.sql
+│
 ├── README.md
 ├── LICENSE
-└── .gitignore
+
 ```
 
 ---
